@@ -1,5 +1,5 @@
 [project]
-name = "langgraph"
+name = "AgenticAi"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -8,12 +8,15 @@ dependencies = [
     "chromadb>=1.5.9",
     "faiss-cpu>=1.14.3",
     "fastapi>=0.140.12",
+    "ipykernel>=7.3.0",
     "jupyter>=1.1.1",
     "langchain>=0.3.30",
     "langchain-community>=0.3.31",
+    "langchain-google-genai>=2.1.12",
     "langchain-groq>=0.3.8",
     "langchain-huggingface>=0.3.1",
     "langchain-openai>=0.3.35",
+    "langgraph>=1.0.1",
     "pydantic>=2.13.4",
     "python-dotenv>=1.2.2",
     "streamlit>=1.60.0",
